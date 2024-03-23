@@ -1,0 +1,59 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: rgb(37, 37, 37);
+    color: rgb(240, 240, 240);
+    
+}
+
+#textos{
+    display: grid;
+    grid-auto-rows: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul li a{
+    color: white;
+}
+
+#texto-1{
+    background-color: rgb(22, 117, 117);
+}
+
+#texto-2{
+    background-color: rgb(215, 215, 69);
+}
+#texto-3{
+    background-color: rgb(239, 177, 62);
+}
+
+#texto-4{
+    background-color: rgb(246, 41, 41);
+}
+
+
+.div-textos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    width: 80%;
+}
+
+
+ul li a:hover{
+    color: rgb(130, 130, 130);
+}
+
